@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Car Faceses</title>
+    <script src="script.js"></script>
 </head>
 <body>
     <!-- <div class="container"> -->
@@ -12,13 +13,14 @@
             <h1>Rate the car face</h1>
         </div>
         <div class="picture">
-            <img src="pictures/red honda.jpg" alt="red honda">
+            <img src="pictures/red honda.jpg" alt="red honda" id="pic">
+            
         </div>
         <div class="rater">
-            <button class="happy">happy</button>
-            <button class="angry">angry</button>
-            <button class="friendly">friendly</button>
-            <button class="sad">sad</button>
+            <button class="happy" onclick="change()">happy</button>
+            <button class="angry" onclick="change()">angry</button>
+            <button class="friendly" onclick="change()">friendly</button>
+            <button class="sad" onclick="change()">sad</button>
         </div>
     <!-- </div> -->
 </body>
