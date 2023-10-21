@@ -1,4 +1,4 @@
-let picsUrl = ["pictures/red honda.jpg", "pictures/blue car.avif", "pictures/green bmw.jpg"];
+let picsUrl = ["pictures/red honda.jpg", "pictures/blue car.avif", "pictures/green bmw.jpg", "pictures/black bmw.avif"];
 let imgIndex = 1; 
 
 
@@ -11,7 +11,7 @@ function change() {
     imgElement.src = picsUrl[imgIndex];
     imgIndex = (imgIndex + 1) % picsUrl.length;
     
-    if(imgIndex == 0) {
+    if(imgIndex == 1) {
         imgElement.remove();
         
         const newP = document.createElement("p");
